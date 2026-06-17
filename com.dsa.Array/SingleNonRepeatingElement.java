@@ -1,4 +1,5 @@
 class SingleNonRepeatingElement {
+    //hint:- use bitwise operator
     public int singleNumber(int[] nums) {
         int single=nums[0];
         for(int i=1;i<nums.length;i++){
